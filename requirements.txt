@@ -1,0 +1,17 @@
+python-dotenv
+langchain 
+langchain-community
+langchain-groq
+groq
+faiss-cpu
+transformers
+sentence-transformers
+streamlit
+numpy
+PyMuPDF
+pypdf
+pdfplumber
+streamlit
+docker
+
+

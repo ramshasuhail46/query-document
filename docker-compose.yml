@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      API_KEY: ${GROQ_API_KEY}
+    command: streamlit run interface.py
+    ports:
+      - "7200:8501"
